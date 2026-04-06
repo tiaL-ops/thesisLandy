@@ -1,0 +1,94 @@
+{
+  "challenge-01": [
+    {
+      "title": "Print Your First Message",
+      "description": "Use print() to display the text 'Hello World'",
+      "starterCode": "# Write your print statement below:\nprint()\n",
+      "expectedOutput": "Hello World",
+      "solution": "# Write your print statement below:\nprint('Hello World')"
+    },
+    {
+      "title": "Python is a Language",
+      "description": "Complete the print statement to display 'Python'",
+      "starterCode": "# Fill in what to print:\nprint()\n",
+      "expectedOutput": "Python",
+      "solution": "# Fill in what to print:\nprint('Python')"
+    },
+    {
+      "title": "What is Programming?",
+      "description": "Print 'instructions' (the answer to: what do programmers write?)",
+      "starterCode": "# Complete this:\nprint()\n",
+      "expectedOutput": "instructions",
+      "solution": "# Complete this:\nprint('instructions')"
+    }
+  ],
+  "challenge-02": [
+    {
+      "title": "Create a Variable",
+      "description": "Store 'Python' in the variable and print it",
+      "starterCode": "name = \nprint(name)\n",
+      "expectedOutput": "Python",
+      "solution": "name = 'Python'\nprint(name)"
+    },
+    {
+      "title": "String with Quotes",
+      "description": "Put 'Hello' inside the quotes to create a string",
+      "starterCode": "greeting = \"\"\nprint(greeting)\n",
+      "expectedOutput": "Hello",
+      "solution": "greeting = \"Hello\"\nprint(greeting)"
+    },
+    {
+      "title": "Uppercase Method",
+      "description": "Use .upper() to convert 'data' to uppercase",
+      "starterCode": "text = \"data\"\nresult = text.\nprint(result)\n",
+      "expectedOutput": "DATA",
+      "solution": "text = \"data\"\nresult = text.upper()\nprint(result)"
+    }
+  ],
+  "challenge-03": [
+    {
+      "title": "Create a List",
+      "description": "Use square brackets [] to create an empty list",
+      "starterCode": "items = \nprint(items)\n",
+      "expectedOutput": "[]",
+      "solution": "items = []\nprint(items)"
+    },
+    {
+      "title": "Use append() Method",
+      "description": "Use .append() to add 'blue' to the list",
+      "starterCode": "colors = ['red']\ncolors.\nprint(colors)\n",
+      "expectedOutput": "['red', 'blue']",
+      "solution": "colors = ['red']\ncolors.append('blue')\nprint(colors)"
+    },
+    {
+      "title": "Reverse a List",
+      "description": "Use .reverse() to flip the order of numbers",
+      "starterCode": "nums = [1, 2, 3]\nnums.\nprint(nums)\n",
+      "expectedOutput": "[3, 2, 1]",
+      "solution": "nums = [1, 2, 3]\nnums.reverse()\nprint(nums)"
+    }
+  ],
+  "challenge-04": [
+    {
+      "title": "Write a For Loop",
+      "description": "Complete the for loop to print each number",
+      "starterCode": "numbers = [1, 2, 3]\nfor num in numbers:\n    print()\n",
+      "expectedOutput": "1\n2\n3",
+      "solution": "numbers = [1, 2, 3]\nfor num in numbers:\n    print(num)"
+    },
+    {
+      "title": "Loop Through Words",
+      "description": "Loop through the list and print each word",
+      "starterCode": "words = ['cat', 'dog']\nfor word in :\n    print(word)\n",
+      "expectedOutput": "cat\ndog",
+      "solution": "words = ['cat', 'dog']\nfor word in words:\n    print(word)"
+    },
+    {
+      "title": "Loop with Method",
+      "description": "Print each word in uppercase using .upper()",
+      "starterCode": "words = ['hi', 'bye']\nfor word in words:\n    print(word.)\n",
+      "expectedOutput": "HI\nBYE",
+      "solution": "words = ['hi', 'bye']\nfor word in words:\n    print(word.upper())"
+    }
+  ]
+}

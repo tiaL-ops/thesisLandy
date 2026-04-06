@@ -1,0 +1,504 @@
+{
+  "challenge-01": {
+    "title": "Introduction to Programming",
+    "description": "Learn the fundamentals of programming concepts",
+    "exercice": [
+      {
+        "id": "q1",
+        "sentence": "Python is a programming _______.",
+        "options": ["language", "snake", "tool", "machine"],
+        "correctAnswer": "language"
+      },
+      {
+        "id": "q2",
+        "sentence": "Programming is the process of writing _______ for a computer to follow.",
+        "options": ["instructions", "ideas", "stories", "rules"],
+        "correctAnswer": "instructions"
+      },
+      {
+        "id": "q3",
+        "type": "code",
+        "sentence": "Write code to print 'Hello World' to the console",
+        "description": "Complete the code below to display 'Hello World'",
+        "starterCode": "# Write your code here\nprint()",
+        "expectedOutput": "Hello World",
+        "solution": "# Write your code here\nprint('Hello World')",
+        "testCases": [
+          {"input": "", "expectedOutput": "Hello World"}
+        ]
+      }
+    ],
+    "hints": {
+      "visual": {
+        "type": "flyer",
+        "description": "A visual guide showing the path from idea to code",
+        "content": {
+          "header": "The Path to Creation!",
+          "sections": [
+            {
+              "title": "The Idea",
+              "icon": "thought-bubble",
+              "keyword": "Computer Science",
+              "phrase": "Think of a clever solution."
+            },
+            {
+              "title": "The Recipe",
+              "icon": "scroll-quill",
+              "keyword": "Programming",
+              "phrase": "Write down the exact steps."
+            },
+            {
+              "title": "The Language",
+              "icon": "friendly-snake",
+              "keyword": "Python",
+              "phrase": "Use our secret code language!"
+            }
+          ]
+        }
+      },
+      "aural": [
+        {
+          "question": "Can you explain \"Computer Science\" in a simple way?",
+          "answer": "Computer Science is the art of solving problems using logic. It's like being a detective who takes big problems and breaks them down into step-by-step solutions."
+        },
+        {
+          "question": "What is the definition of \"Programming\"?",
+          "answer": "Programming is writing clear instructions for a computer to follow. Think of it like writing a recipe that a robot can follow exactly."
+        },
+        {
+          "question": "Why is the language we are using called \"Python\"?",
+          "answer": "Python is named after the British comedy group Monty Python. It's designed to be simple and readable, just like the comedy sketches!"
+        },
+        {
+          "question": "What's the difference between the three main concepts?",
+          "answer": "Computer Science is thinking about problems, Programming is writing the solution, and Python is the specific language we use to write it."
+        },
+        {
+          "question": "Can you give me a hint for the first blank space in the puzzle?",
+          "answer": "The first blank is asking what Python is. Look at the options: language, snake, tool, machine. Python is a programming language!"
+        },
+        {
+          "question": "What is the overall goal of this puzzle?",
+          "answer": "To help you understand the basic concepts of programming: Computer Science (thinking), Programming (writing), and Python (the language)."
+        },
+        {
+          "question": "How do these sentences relate to writing real code?",
+          "answer": "These concepts are the foundation of all programming. You need to think logically (Computer Science), write clear instructions (Programming), and use a specific language (Python)."
+        },
+        {
+          "question": "Where did you learn all this?",
+          "answer": "This knowledge comes from years of programming experience and teaching. These are fundamental concepts that every programmer needs to understand."
+        },
+        {
+          "question": "Why is the door locked?",
+          "answer": "The door represents the challenge of learning programming. You need to understand these basic concepts before you can unlock the door to more advanced programming!"
+        },
+        {
+          "question": "Is there another way to find hints?",
+          "answer": "Yes! You can use the Visual hint to see a diagram, or the Read hint to get detailed explanations. Each hint type helps different learning styles."
+        }
+      ],
+      "reading": "\n\n1. Computer Science :1.Computer science is the study of how computers and computational systems work. It focuses on designing methods (algorithms) to solve problems, building software and hardware, and understanding how technology affects society. Areas of computer science include programming, artificial intelligence, data structures, cybersecurity, and human-computer interaction. \n\n2. Programming :Programming is the process of turning solutions into precise instructions that a computer can execute. A program is like a step-by-step recipe: each instruction must be clear and ordered so the computer can carry it out exactly as intended. \n\n3. Python : Python is a programming language used to write these instructions. Just like human languages (English, Spanish, etc.), programming languages provide different ways to communicate ideas to a computer. Python is especially popular because it is simple to read, easy to learn, and powerful enough for tasks like web development, data analysis, and artificial intelligence.",
+      "kinesthetic": [
+        {
+          "title": "Print Your First Message",
+          "description": "Use print() to display the text 'Hello World'",
+          "starterCode": "# Write your print statement below:\nprint()\n",
+          "expectedOutput": "Hello World",
+          "solution": "# Write your print statement below:\nprint('Hello World')"
+        },
+        {
+          "title": "Python is a Language",
+          "description": "Complete the print statement to display 'Python'",
+          "starterCode": "# Fill in what to print:\nprint()\n",
+          "expectedOutput": "Python",
+          "solution": "# Fill in what to print:\nprint('Python')"
+        },
+        {
+          "title": "What is Programming?",
+          "description": "Print 'instructions' (the answer to: what do programmers write?)",
+          "starterCode": "# Complete this:\nprint()\n",
+          "expectedOutput": "instructions",
+          "solution": "# Complete this:\nprint('instructions')"
+        }
+      ]
+    }
+  },
+  "challenge-02": {
+    "title": "Variables and Simple Data Types",
+    "description": "Learn about variables and string manipulation",
+    "exercice": [
+      {
+        "id": "q1",
+        "sentence": "A _______ is a container that stores data in memory.",
+        "options": ["variable", "function", "loop", "class"],
+        "correctAnswer": "variable"
+      },
+      {
+        "id": "q2",
+        "sentence": "In Python, you can create a string by enclosing text in _______.",
+        "options": ["quotes", "parentheses", "brackets", "braces"],
+        "correctAnswer": "quotes"
+      },
+      {
+        "id": "q3",
+        "type": "code",
+        "sentence": "Convert the text 'hello' to uppercase using the appropriate method",
+        "description": "Use the correct string method to convert 'hello' to 'HELLO'",
+        "starterCode": "text = 'hello'\nresult = text.\nprint(result)",
+        "expectedOutput": "HELLO",
+        "solution": "text = 'hello'\nresult = text.upper()\nprint(result)",
+        "requiredMethods": ["upper"],
+        "testCases": [
+          {"input": "", "expectedOutput": "HELLO"}
+        ]
+      }
+    ],
+    "hints": {
+      "visual": {
+        "type": "diagram",
+        "description": "Visual representation of variables and data types",
+        "content": {
+          "header": "Variables and Data Types",
+          "sections": [
+            {
+              "title": "Variable Container",
+              "icon": "box",
+              "keyword": "Variable",
+              "phrase": "A labeled box that holds data"
+            },
+            {
+              "title": "String Data",
+              "icon": "text",
+              "keyword": "String",
+              "phrase": "Text wrapped in quotes"
+            },
+            {
+              "title": "String Functions",
+              "icon": "tools",
+              "keyword": "Methods",
+              "phrase": "Tools to manipulate text"
+            }
+          ]
+        }
+      },
+      "aural": [
+        {
+          "question": "What is a variable in programming?",
+          "answer": "A variable is like a labeled box that stores data. You can put different types of information in it and refer to it by its name."
+        },
+        {
+          "question": "How do you create a string in Python?",
+          "answer": "You create a string by putting text inside quotes, like this: name = \"Alice\" or message = 'Hello World'"
+        },
+        {
+          "question": "What does the upper() function do?",
+          "answer": "The upper() function converts all letters in a string to uppercase. For example, 'hello' becomes 'HELLO'"
+        },
+        {
+          "question": "Can you give me an example of a variable name?",
+          "answer": "Good variable names are descriptive, like 'user_name', 'age', 'email_address', or 'total_score'"
+        },
+        {
+          "question": "What's the difference between a string and a number?",
+          "answer": "A string is text (like 'hello' or '123') while a number is a numeric value (like 123 or 45.6). Strings are in quotes, numbers are not."
+        },
+        {
+          "question": "How do you make text lowercase?",
+          "answer": "Use the lower() function: text = 'HELLO' then text.lower() gives you 'hello'"
+        },
+        {
+          "question": "What happens when you use title() on a string?",
+          "answer": "The title() function capitalizes the first letter of each word. For example, 'hello world' becomes 'Hello World'"
+        },
+        {
+          "question": "Can variables change their value?",
+          "answer": "Yes! Variables can be reassigned. For example, you can change name = 'Alice' to name = 'Bob'"
+        },
+        {
+          "question": "What are some good variable naming practices?",
+          "answer": "Use descriptive names, avoid spaces (use underscores), start with letters, and make them meaningful like 'user_age' instead of 'x'"
+        },
+        {
+          "question": "How do you check the length of a string?",
+          "answer": "Use the len() function: length = len('hello') gives you 5, because 'hello' has 5 characters"
+        }
+      ],
+      "reading": "1. Variables: Think of variables as labeled boxes that can hold different types of data. You can put something in the box, take it out, or change what's inside. In Python, you create a variable by giving it a name and assigning a value using the equals sign (=).\n\n2. Strings: Strings are sequences of characters (letters, numbers, symbols) enclosed in quotes. You can use single quotes ('') or double quotes (\"\") to create strings. Strings are one of the most common data types in programming.\n\n3. String Methods: Python provides many built-in functions (called methods) to work with strings. The upper() method converts all letters to uppercase, lower() converts to lowercase, and title() capitalizes the first letter of each word.",
+      "kinesthetic": [
+        {
+          "title": "Create a Variable",
+          "description": "Store 'Python' in the variable and print it",
+          "starterCode": "name = \nprint(name)\n",
+          "expectedOutput": "Python",
+          "solution": "name = 'Python'\nprint(name)"
+        },
+        {
+          "title": "String with Quotes",
+          "description": "Put 'Hello' inside the quotes to create a string",
+          "starterCode": "greeting = \"\"\nprint(greeting)\n",
+          "expectedOutput": "Hello",
+          "solution": "greeting = \"Hello\"\nprint(greeting)"
+        },
+        {
+          "title": "Uppercase Method",
+          "description": "Use .upper() to convert 'data' to uppercase",
+          "starterCode": "text = \"data\"\nresult = text.\nprint(result)\n",
+          "expectedOutput": "DATA",
+          "solution": "text = \"data\"\nresult = text.upper()\nprint(result)"
+        }
+      ]
+    }
+  },
+  "challenge-03": {
+    "title": "Lists: Create, Insert, Reverse",
+    "description": "Learn how to work with lists in Python",
+    "exercice": [
+      {
+        "id": "q1",
+        "sentence": "A _______ is a collection of items stored in a specific order.",
+        "options": ["list", "variable", "string", "number"],
+        "correctAnswer": "list"
+      },
+      {
+        "id": "q2",
+        "sentence": "To add an item to the end of a list, you use the _______ method.",
+        "options": ["append()", "insert()", "add()", "push()"],
+        "correctAnswer": "append()"
+      },
+      {
+        "id": "q3",
+        "type": "code",
+        "sentence": "Reverse the order of items in the list [1, 2, 3]",
+        "description": "Use the reverse() method to flip the list order and print it",
+        "starterCode": "numbers = [1, 2, 3]\nnumbers.\nprint(numbers)",
+        "expectedOutput": "[3, 2, 1]",
+        "solution": "numbers = [1, 2, 3]\nnumbers.reverse()\nprint(numbers)",
+        "requiredMethods": ["reverse"],
+        "testCases": [
+          {"input": "", "expectedOutput": "[3, 2, 1]"}
+        ]
+      }
+    ],
+    "hints": {
+      "visual": {
+        "type": "diagram",
+        "description": "Visual guide to list operations",
+        "content": {
+          "header": "Working with Lists",
+          "sections": [
+            {
+              "title": "Create List",
+              "icon": "brackets",
+              "keyword": "[]",
+              "phrase": "Empty brackets create a list"
+            },
+            {
+              "title": "Add Items",
+              "icon": "plus",
+              "keyword": "append()",
+              "phrase": "Add items to the end"
+            },
+            {
+              "title": "Reverse Order",
+              "icon": "arrows",
+              "keyword": "reverse()",
+              "phrase": "Flip the list around"
+            }
+          ]
+        }
+      },
+      "aural": [
+        {
+          "question": "What is a list in Python?",
+          "answer": "A list is a collection of items stored in a specific order. It's like a numbered list where each item has a position (index)."
+        },
+        {
+          "question": "How do you create an empty list?",
+          "answer": "Use empty square brackets: my_list = [] or use the list() function: my_list = list()"
+        },
+        {
+          "question": "What's the difference between append() and insert()?",
+          "answer": "append() adds an item to the end of the list, while insert() adds an item at a specific position."
+        },
+        {
+          "question": "Can you give me an example of a list with numbers?",
+          "answer": "Sure! numbers = [1, 2, 3, 4, 5] or scores = [85, 92, 78, 96, 88]"
+        },
+        {
+          "question": "How do you reverse a list?",
+          "answer": "Use the reverse() method: my_list.reverse() or create a reversed copy: reversed_list = my_list[::-1]"
+        },
+        {
+          "question": "What happens when you use reverse() on a list?",
+          "answer": "The reverse() method changes the original list permanently. The first item becomes last, and the last becomes first."
+        },
+        {
+          "question": "Can lists contain different types of data?",
+          "answer": "Yes! Lists can contain strings, numbers, other lists, and any other data type: mixed = [1, 'hello', 3.14, [1, 2, 3]]"
+        },
+        {
+          "question": "How do you access the first item in a list?",
+          "answer": "Use index 0: first_item = my_list[0]. Remember, Python lists start counting from 0, not 1."
+        },
+        {
+          "question": "What's the index of the first item in a list?",
+          "answer": "The first item has index 0, the second has index 1, and so on. Python uses zero-based indexing."
+        },
+        {
+          "question": "How do you find the length of a list?",
+          "answer": "Use the len() function: length = len(my_list) gives you the number of items in the list."
+        }
+      ],
+      "reading": "1. Lists: A list is a collection of items that are ordered and changeable. Lists are created by placing items inside square brackets [], separated by commas. Lists can contain any type of data: numbers, strings, or even other lists.\n\n2. Adding Items: The append() method adds a single item to the end of the list. The insert() method allows you to add an item at a specific position by providing an index number.\n\n3. Reversing Lists: The reverse() method reverses the order of items in the list permanently. This means the original list is modified, and the items appear in the opposite order.",
+      "kinesthetic": [
+        {
+          "title": "Create a List",
+          "description": "Use square brackets [] to create an empty list",
+          "starterCode": "items = \nprint(items)\n",
+          "expectedOutput": "[]",
+          "solution": "items = []\nprint(items)"
+        },
+        {
+          "title": "Use append() Method",
+          "description": "Use .append() to add 'blue' to the list",
+          "starterCode": "colors = ['red']\ncolors.\nprint(colors)\n",
+          "expectedOutput": "['red', 'blue']",
+          "solution": "colors = ['red']\ncolors.append('blue')\nprint(colors)"
+        },
+        {
+          "title": "Reverse a List",
+          "description": "Use .reverse() to flip the order of numbers",
+          "starterCode": "nums = [1, 2, 3]\nnums.\nprint(nums)\n",
+          "expectedOutput": "[3, 2, 1]",
+          "solution": "nums = [1, 2, 3]\nnums.reverse()\nprint(nums)"
+        }
+      ]
+    }
+  },
+  "challenge-04": {
+    "title": "Lists: For Loop and Traverse",
+    "description": "Learn how to iterate through lists using for loops",
+    "exercice": [
+      {
+        "id": "q1",
+        "sentence": "A _______ loop allows you to repeat code for each item in a list.",
+        "options": ["for", "while", "if", "when"],
+        "correctAnswer": "for"
+      },
+      {
+        "id": "q2",
+        "sentence": "To traverse a list means to _______ through each item one by one.",
+        "options": ["iterate", "skip", "delete", "copy"],
+        "correctAnswer": "iterate"
+      },
+      {
+        "id": "q3",
+        "type": "code",
+        "sentence": "Write a for loop that prints each number in the list [1, 2, 3]",
+        "description": "Complete the for loop to print each number on a new line",
+        "starterCode": "numbers = [1, 2, 3]\nfor num in :\n    print()",
+        "expectedOutput": "1\n2\n3",
+        "solution": "numbers = [1, 2, 3]\nfor num in numbers:\n    print(num)",
+        "testCases": [
+          {"input": "", "expectedOutput": "1\n2\n3"}
+        ]
+      }
+    ],
+    "hints": {
+      "visual": {
+        "type": "diagram",
+        "description": "Visual representation of for loops and list traversal",
+        "content": {
+          "header": "For Loops and List Traversal",
+          "sections": [
+            {
+              "title": "For Loop",
+              "icon": "cycle",
+              "keyword": "for",
+              "phrase": "Repeat for each item"
+            },
+            {
+              "title": "Traverse",
+              "icon": "walking",
+              "keyword": "iterate",
+              "phrase": "Go through one by one"
+            },
+            {
+              "title": "Loop Variable",
+              "icon": "pointer",
+              "keyword": "item",
+              "phrase": "Represents current item"
+            }
+          ]
+        }
+      },
+      "aural": [
+        {
+          "question": "What is a for loop used for?",
+          "answer": "A for loop is used to repeat a block of code for each item in a collection, like going through each item in a list one by one."
+        },
+        {
+          "question": "How do you write a for loop in Python?",
+          "answer": "Use the syntax: for item in my_list: followed by indented code. For example: for number in [1, 2, 3]: print(number)"
+        },
+        {
+          "question": "What does it mean to traverse a list?",
+          "answer": "Traversing means going through each item in the list from start to finish, usually using a for loop to visit every element."
+        },
+        {
+          "question": "What is the loop variable in a for loop?",
+          "answer": "The loop variable is the name you give to represent each item as you go through the list. In 'for item in my_list:', 'item' is the loop variable."
+        },
+        {
+          "question": "Can you give me an example of traversing a list?",
+          "answer": "Sure! fruits = ['apple', 'banana', 'orange'] then for fruit in fruits: print(fruit) will print each fruit on a new line."
+        },
+        {
+          "question": "What happens if you modify a list while traversing it?",
+          "answer": "It can cause unexpected behavior or errors. It's generally safer to create a copy of the list or use a different approach."
+        },
+        {
+          "question": "How do you access both the item and its index?",
+          "answer": "Use enumerate(): for index, item in enumerate(my_list): This gives you both the position and the value."
+        },
+        {
+          "question": "What's the difference between for and while loops?",
+          "answer": "For loops go through a collection of items, while loops repeat as long as a condition is true. For loops are better for lists."
+        },
+        {
+          "question": "Can you use for loops with other data types?",
+          "answer": "Yes! You can use for loops with strings (for character in 'hello':), ranges (for i in range(5):), and other iterable objects."
+        },
+        {
+          "question": "How do you break out of a for loop early?",
+          "answer": "Use the break statement: for item in my_list: if condition: break. This stops the loop immediately."
+        }
+      ],
+      "reading": "1. For Loops: A for loop is used to iterate over a sequence (like a list) and execute a block of code for each item. The basic syntax is 'for item in list:' where 'item' is a variable that represents each element as the loop runs.\n\n2. List Traversal: Traversing a list means going through each item in the list one by one, from the first item to the last. This is exactly what a for loop does - it automatically handles the traversal for you.\n\n3. Loop Variables: The loop variable (like 'item' in 'for item in list:') takes on the value of each list element in turn. You can use this variable inside the loop to work with the current item, such as printing it, modifying it, or using it in calculations.",
+      "kinesthetic": [
+        {
+          "title": "Write a For Loop",
+          "description": "Complete the for loop to print each number",
+          "starterCode": "numbers = [1, 2, 3]\nfor num in numbers:\n    print()\n",
+          "expectedOutput": "1\n2\n3",
+          "solution": "numbers = [1, 2, 3]\nfor num in numbers:\n    print(num)"
+        },
+        {
+          "title": "Loop Through Words",
+          "description": "Loop through the list and print each word",
+          "starterCode": "words = ['cat', 'dog']\nfor word in :\n    print(word)\n",
+          "expectedOutput": "cat\ndog",
+          "solution": "words = ['cat', 'dog']\nfor word in words:\n    print(word)"
+        },
+        {
+          "title": "Loop with Method",
+          "description": "Print each word in uppercase using .upper()",
+          "starterCode": "words = ['hi', 'bye']\nfor word in words:\n    print(word.)\n",
+          "expectedOutput": "HI\nBYE",
+          "solution": "words = ['hi', 'bye']\nfor word in words:\n    print(word.upper())"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "metadata": {
+    "scale": [1, 2, 3, 4],
+    "raters": ["R1", "R2"],
+    "packs": ["PCK7", "PCK8", "PCK10", "PCK11", "PCK12", "PCK13"],
+    "models": ["anthropic", "openai", "gemini", "llama", "mistral", "qwen38"],
+    "note": "null = item dropped for that rater/pack combination"
+  },
+  "ratings": {
+    "R1": {
+      "PCK7": {
+        "anthropic": [2, 3, 4, 1],
+        "openai": [1, 4, 4, 1],
+        "gemini": [1, 2, 4, 1],
+        "llama": [1, 3, 4, 1],
+        "mistral": null,
+        "qwen38": [1, 4, 4, 1]
+      },
+      "PCK8": {
+        "anthropic": null,
+        "openai": [1, 1, 4, 1],
+        "gemini": null,
+        "llama": [1, 2, 4, 1],
+        "mistral": null,
+        "qwen38": [1, 1, 4, 1]
+      },
+      "PCK10": {
+        "anthropic": [1, 4, 3, 4],
+        "openai": [1, 4, 4, 4],
+        "gemini": [1, 4, 2, 3],
+        "llama": [1, 4, 4, 4],
+        "mistral": [1, 4, 3, 4],
+        "qwen38": [1, 4, 4, 4]
+      },
+      "PCK11": {
+        "anthropic": [1, 3, 1],
+        "openai": [1, 3, 1],
+        "gemini": [1, 3, 1],
+        "llama": [1, 3, 1],
+        "mistral": [1, 4, 1],
+        "qwen38": [1, 3, 1]
+      },
+      "PCK12": {
+        "anthropic": [1, 1, 1],
+        "openai": [2, 1, 1],
+        "gemini": [1, 1, 1],
+        "llama": [1, 1, 1],
+        "mistral": [3, 2, 2],
+        "qwen38": [1, 1, 1]
+      },
+      "PCK13": {
+        "anthropic": [3, 1, 4],
+        "openai": [2, 1, 4],
+        "gemini": [3, 2, 4],
+        "llama": [4, 1, 4],
+        "mistral": [4, 2, 4],
+        "qwen38": [2, 1, 4]
+      }
+    },
+    "R2": {
+      "PCK7": {
+        "anthropic": [4, 4, 4, 2],
+        "openai": [3, 4, 3, 1],
+        "gemini": [2, 1, 3, 1],
+        "llama": [2, 2, 4, 1],
+        "mistral": null,
+        "qwen38": [4, 1, 4, 1]
+      },
+      "PCK8": {
+        "anthropic": null,
+        "openai": [1, 1, 2, 1],
+        "gemini": null,
+        "llama": [1, 1, 1, 1],
+        "mistral": null,
+        "qwen38": [1, 1, 1, 1]
+      },
+      "PCK10": {
+        "anthropic": [4, 4, 4, 4],
+        "openai": [3, 4, 4, 3],
+        "gemini": [4, 4, 4, 4],
+        "llama": [4, 4, 4, 4],
+        "mistral": [4, 4, 4, 4],
+        "qwen38": [4, 4, 4, 4]
+      },
+      "PCK11": {
+        "anthropic": [1, 4, 1],
+        "openai": [1, 3, 1],
+        "gemini": [1, 2, 1],
+        "llama": [1, 2, 1],
+        "mistral": [1, 4, 1],
+        "qwen38": [1, 4, 1]
+      },
+      "PCK12": {
+        "anthropic": [2, 3, 2],
+        "openai": [4, 4, 4],
+        "gemini": [4, 2, 3],
+        "llama": [4, 2, 3],
+        "mistral": [4, 4, 4],
+        "qwen38": [4, 3, 3]
+      },
+      "PCK13": {
+        "anthropic": [4, 4, 4],
+        "openai": [3, 3, 4],
+        "gemini": [1, 1, 1],
+        "llama": [2, 1, 4],
+        "mistral": [2, 1, 4],
+        "qwen38": [2, 1, 4]
+      }
+    }
+  }
+}

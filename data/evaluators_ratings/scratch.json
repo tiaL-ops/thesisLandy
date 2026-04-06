@@ -1,0 +1,27 @@
+{
+  "metadata": {
+    "scale": [1, 2, 3, 4],
+    "raters": ["R1", "R2"],
+    "packs": ["PCK1", "PCK2", "PCK3", "PCK4", "PCK5", "PCK6"],
+    "models": ["anthropic", "openai", "gemini", "llama", "mistral", "qwen38"],
+    "note": "null = item dropped for that rater/pack combination"
+  },
+  "ratings": {
+    "R1": {
+      "PCK1": { "anthropic": [1,1,4,3], "openai": [4,1,4,1], "gemini": [4,1,4,1], "llama": [4,1,4,1], "mistral": [4,1,4,1], "qwen38": [4,1,4,1] },
+      "PCK2": { "anthropic": [4,1,2],   "openai": [1,1,2],   "gemini": [1,1,1],   "llama": [1,1,1],   "mistral": [1,1,3],   "qwen38": null },
+      "PCK3": { "anthropic": [1,4,1],   "openai": [1,4,1],   "gemini": [1,3,1],   "llama": null,      "mistral": null,      "qwen38": [1,4,1] },
+      "PCK4": { "anthropic": [3,1,1,1], "openai": [1,1,1,3], "gemini": [3,1,1,1], "llama": [1,1,1,1], "mistral": [4,1,1,3], "qwen38": [1,1,1,1] },
+      "PCK5": { "anthropic": [1,1,1,1,1], "openai": [1,1,1,1,1], "gemini": [2,1,1,1,1], "llama": [2,1,1,1,3], "mistral": [3,1,1,1,1], "qwen38": [1,1,1,1,1] },
+      "PCK6": { "anthropic": [1,4,4],   "openai": [1,3,1],   "gemini": [1,3,1],   "llama": [4,3,1],   "mistral": null,      "qwen38": [1,3,1] }
+    },
+    "R2": {
+      "PCK1": { "anthropic": [4,3,4,2], "openai": [4,1,3,1], "gemini": [4,1,3,1], "llama": [4,3,1,1], "mistral": [4,1,3,1], "qwen38": [4,1,4,1] },
+      "PCK2": { "anthropic": [4,4,3],   "openai": [1,1,1],   "gemini": [1,1,3],   "llama": [1,1,3],   "mistral": [1,1,3],   "qwen38": null },
+      "PCK3": { "anthropic": [1,4,1],   "openai": [1,4,1],   "gemini": [1,4,1],   "llama": null,      "mistral": null,      "qwen38": [1,4,1] },
+      "PCK4": { "anthropic": [4,1,1,1], "openai": [1,1,1,2], "gemini": [1,1,1,1], "llama": [1,1,1,3], "mistral": [4,1,1,1], "qwen38": [1,1,1,1] },
+      "PCK5": { "anthropic": [1,1,1,1,1], "openai": [1,1,1,1,1], "gemini": [1,1,1,1,1], "llama": [1,1,1,1,3], "mistral": [1,2,1,1,1], "qwen38": [1,1,1,1,1] },
+      "PCK6": { "anthropic": [1,2,4],   "openai": [1,4,1],   "gemini": [1,3,1],   "llama": [4,3,1],   "mistral": null,      "qwen38": [1,1,1] }
+    }
+  }
+}
