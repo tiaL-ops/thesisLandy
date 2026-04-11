@@ -1,0 +1,181 @@
+{
+  "survey": {
+    "title": "Computer Science Pedagogical Content Knowledge (CS-PCK) Survey",
+    "source": "Yadav & Berges (2019). ACM Transactions on Computing Education, 19(3). https://doi.org/10.1145/3303770",
+    "instructions": "For each scenario, rate how likely you are to use each teaching response.",
+    "scale": {
+      "1": "Definitely Will",
+      "2": "Probably Will",
+      "3": "Probably Will Not",
+      "4": "Definitely Will Not"
+    }
+  },
+  "vignettes": [
+    {
+      "id": "PCK1",
+      "topic": "Variables",
+      "scenario": "Phil has worked on the following Scratch example and when you ask him about the value 'b', he suggested that b would be 20.\n\nCode:\n  when [flag] clicked\n  set a to 10\n  set b to a\n  set a to 20\n  show variable a\n  show variable b",
+      "question": "How would you help Phil understand this code segment?",
+      "stem": "I would...",
+      "items": [
+        { "id": "PCK1.1", "text": "...explain to Phil what happens in the code." },
+        { "id": "PCK1.5", "text": "...ask Phil questions until he recognizes his error." },
+        { "id": "PCK1.6", "text": "...explain to Phil how and when variables change." },
+        { "id": "PCK1.7", "text": "...ask Phil about his intentions when writing the code." }
+      ]
+    },
+    {
+      "id": "PCK2",
+      "topic": "Loops",
+      "scenario": "Emily is working on a Scratch project to have a countdown from 10. Using trial and error, she's worked on the following program when I come to look it over.\n\nCode:\n  when [flag] clicked\n  set x to 10\n  repeat until (x < 10)\n    change x by 1\n    show variable x",
+      "question": "How can you help Emily understand why her program does not work?",
+      "stem": "I would...",
+      "items": [
+        { "id": "PCK2.3", "text": "...have Emily be the computer and write down her responses." },
+        { "id": "PCK2.5", "text": "...ask Emily questions until she recognizes the error." },
+        { "id": "PCK2.8", "text": "...let Emily run the code and see what happens." }
+      ]
+    },
+    {
+      "id": "PCK3",
+      "topic": "Conditionals",
+      "scenario": "Tim examines each of the following pieces of code and responds that the first ends with x being equal to 5, and the second with x being equal to 16.\n\nCode 1:\n  when [flag] clicked\n  set x to 0\n  if (x = 10)\n    change x by 1\n  else\n    change x by 5\n\nCode 2:\n  when [flag] clicked\n  set x to 10\n  if (x = 10)\n    change x by 1\n  else\n    change x by 5",
+      "question": "How can you help Tim to understand his misconceptions?",
+      "stem": "I would...",
+      "items": [
+        { "id": "PCK3.1", "text": "...ask Tim questions until he recognizes the error." },
+        { "id": "PCK3.3", "text": "...choose another form of representation to explain the conditional statement." },
+        { "id": "PCK3.4", "text": "...explain to Tim how the conditional statement works." },
+        { "id": "PCK3.6", "text": "...ask Tim to explain the code to me." }
+      ]
+    },
+    {
+      "id": "PCK4",
+      "topic": "Boolean Logic",
+      "scenario": "In class, the following code segment is shown on the screen. Ruby raises her hand and suggests that x will be 5 when the code segment completes.\n\nCode:\n  when [flag] clicked\n  set x to 4\n  set y to 8\n  if (x < 10 and y > 8)\n    change x by 1\n  else\n    change y by 1",
+      "question": "How would you identify which aspect of the code that Ruby is struggling with?",
+      "stem": "I would...",
+      "items": [
+        { "id": "PCK4.1", "text": "...ask Ruby of her understanding of the 'and' expression." },
+        { "id": "PCK4.2", "text": "...let Ruby change the code and explain the different results." },
+        { "id": "PCK4.3", "text": "...ask Ruby to execute her code with different input values and describe the output." },
+        { "id": "PCK4.4", "text": "...let Ruby step through the code and explain each line." }
+      ]
+    },
+    {
+      "id": "PCK5",
+      "topic": "Boolean Logic",
+      "scenario": "Reggie is using the following piece of code and keeps getting an unexpected result. He feels that this code should change the value of y and not the value of x.\n\nCode:\n  when [flag] clicked\n  set x to 4\n  set y to 1\n  if (x < 10 or y > 1) then\n    change x by 1\n  else\n    change y by 1",
+      "question": "How would you address Reggie's approach to solving this problem?",
+      "stem": "I would...",
+      "items": [
+        { "id": "PCK5.1", "text": "...let Reggie evaluate the code with pen and paper." },
+        { "id": "PCK5.2", "text": "...let Reggie explain each line of code." },
+        { "id": "PCK5.5", "text": "...let Reggie write down all values in each step." },
+        { "id": "PCK5.6", "text": "...ask Reggie to read the code aloud." },
+        { "id": "PCK5.7", "text": "...point Reggie to the error by asking him questions." }
+      ]
+    },
+    {
+      "id": "PCK6",
+      "topic": "Loops",
+      "scenario": "Cassandra responds to a question about the following code segment stating that the final value of y will be 44. The code returns 120.\n\nCode:\n  when [flag] clicked\n  set x to 4\n  set y to 0\n  repeat 5\n    repeat 6\n      set y to (y + x)",
+      "question": "How would you help Cassandra to understand her misconception with this code?",
+      "stem": "I would...",
+      "items": [
+        { "id": "PCK6.1", "text": "...ask Cassandra questions to let her see her error." },
+        { "id": "PCK6.4", "text": "...let Cassandra read through the code as if she was a computer." },
+        { "id": "PCK6.5", "text": "...provide another example that addresses the misconception." },
+        { "id": "PCK6.8", "text": "...let Cassandra change the values of the loop and compare the different results." }
+      ]
+    },
+    {
+      "id": "PCK7",
+      "topic": "Computational Arithmetic (Order of Operations)",
+      "scenario": "Determine the values stored in the following variables, or state that the code segment will not compile and the reason for the error.\n\n  a = (3 - 2) / (8 / 4)\n  b = 7 + 2 / 3\n  c = 1.0/9 + 1.0/9 + 1.0/9 + 1.0/9 + 1.0/9 + 1.0/9 + 1.0/9 + 1.0/9 + 1.0/9\n\nA student responds with:\n  a = 0.5\n  b = 3\n  c = 1",
+      "question": "How would you address her misconceptions?",
+      "stem": "I would...",
+      "items": [
+        { "id": "PCK7.1", "text": "...let the student evaluate only parts of each code segment." },
+        { "id": "PCK7.3", "text": "...explain the underlying CS-content to the student." },
+        { "id": "PCK7.4", "text": "...remind the student of the order of operations learned in math." },
+        { "id": "PCK7.5", "text": "...present similar but easier examples to the student." }
+      ]
+    },
+    {
+      "id": "PCK8",
+      "topic": "Computational Arithmetic (Casting)",
+      "scenario": "Below is a question that a student is working on:\nWhich of the following expressions does NOT evaluate to 0.4?\n\n  A. float(4 / 10)\n  B. int(4.5) / float(10)\n  C. float(4) / float(10)\n  D. 4.0 / 10\n\nA student responds with the choice 'D'.",
+      "question": "How would you address his misconception?",
+      "stem": "I would...",
+      "items": [
+        { "id": "PCK8.1", "text": "...ask the student to evaluate the code by hand." },
+        { "id": "PCK8.2", "text": "...ask the student what happens in each expression." },
+        { "id": "PCK8.4", "text": "...explain the underlying mathematical content to the student." },
+        { "id": "PCK8.5", "text": "...tell the student to run the code of each statement to see the outcomes." }
+      ]
+    },
+    {
+      "id": "PCK9",
+      "topic": "Computational Arithmetic (Order of Operations)",
+      "scenario": "Below is a question that a student is working on:\nWhich of the following statements evaluates to 3?\n\n  I.   x = 7 * 4 % 5\n  II.  y = 20 % 8 * 3 / 4\n  III. z = 8 + 7 % (2 * 4) / 3\n\n  A. I only\n  B. I and II\n  C. I and III\n  D. I, II, and III\n\nA student responds with the choice 'A'.",
+      "question": "How would you address her misconception?",
+      "stem": "I would...",
+      "items": [
+        { "id": "PCK9.1", "text": "...ask the student to evaluate the code by hand." },
+        { "id": "PCK9.2", "text": "...ask the student to evaluate each operation step-by-step." },
+        { "id": "PCK9.3", "text": "...ask the student to run each statement in Python." },
+        { "id": "PCK9.4", "text": "...explain to the student how the order of operations work." }
+      ]
+    },
+    {
+      "id": "PCK10",
+      "topic": "Boolean Logic",
+      "scenario": "Below is a question that a student is working on:\nWhich of the following expressions evaluates to True when x and y are Boolean variables with different values?\n\n  I.   (x or y) and not (x and y)\n  II.  (x or y) and (not x or not y)\n  III. (x and not y) or (not x and y)\n\n  A. I only\n  B. I and II\n  C. II and III\n  D. I, II, and III\n\nPhil responds with the choice 'C' but admits later that he wasn't sure how to approach this question.",
+      "question": "How would you work with Phil to address his needs?",
+      "stem": "I would...",
+      "items": [
+        { "id": "PCK10.2", "text": "...ask Phil to evaluate only parts of the expressions." },
+        { "id": "PCK10.3", "text": "...explain the content of Boolean logic to Phil." },
+        { "id": "PCK10.4", "text": "...ask Phil to set real values to the variables and evaluate the expressions." },
+        { "id": "PCK10.5", "text": "...ask Phil to write down the values of each part of the expressions and evaluate the complete expression afterwards." }
+      ]
+    },
+    {
+      "id": "PCK11",
+      "topic": "Loops",
+      "scenario": "Below is a question that a student is working on:\nHow many times will the innermost statement execute in the following code segment?\n\n  for x in range(0, 7):\n      for y in range(3, 10):\n          print(x + y)\n\n  A. 16\n  B. 49\n  C. 56\n  D. 64\n  E. 70\n\nA student responds with the choice 'D'.",
+      "question": "How would you address his misconception?",
+      "stem": "I would...",
+      "items": [
+        { "id": "PCK11.1", "text": "...let the student change the code and compare the different outputs." },
+        { "id": "PCK11.2", "text": "...let the student evaluate only parts of the code." },
+        { "id": "PCK11.3", "text": "...let the student execute the code." }
+      ]
+    },
+    {
+      "id": "PCK12",
+      "topic": "Functions",
+      "scenario": "Consider the following two codes that Tim has been working on and believes that both should produce the same output:\n\nCode 1:\n  def printCountNTimes(n):\n      count = 0\n      while (count < n):\n          print('The count is: ', count)\n          count = count + 1\n  printCountNTimes(8)\n\nCode 2:\n  def printCountNTimes(n):\n      count = 0\n      while (count < n):\n          print('The count is: ', count)\n          count = count + 1\n  printCountNTimes(4)\n  printCountNTimes(4)",
+      "question": "How would you help Tim understand the difference between the two codes?",
+      "stem": "I would...",
+      "items": [
+        { "id": "PCK12.1", "text": "...let Tim evaluate only the initializing of the count variable." },
+        { "id": "PCK12.2", "text": "...present the code twice. One time for each call of printCountNTimes(4)." },
+        { "id": "PCK12.4", "text": "...ask Tim to write down the values of the variables after each step." }
+      ]
+    },
+    {
+      "id": "PCK13",
+      "topic": "Conditionals / Data Structures",
+      "scenario": "Below is a question that a student is working on:\nWhich of the following best describes the value of sum2 output by doSomething?\n\n  def doSomething(myList):\n      sum1 = 0\n      sum2 = 0\n      for num in myList:\n          if num > 0 or (num % 2) != 0:\n              sum1 += num\n          elif (num % 2) == 0:\n              sum2 += num\n      print(sum1)\n      print(sum2)\n\n  A. The sum of all negative values in myList\n  B. The sum of all negative even values in myList\n  C. The sum of all even values in myList\n  D. The sum of all negative values and positive even values in myList\n\nA student responds with the choice 'C'.",
+      "question": "How would you address his misconception?",
+      "stem": "I would...",
+      "items": [
+        { "id": "PCK13.1", "text": "...let the student walk through the code line-by-line." },
+        { "id": "PCK13.2", "text": "...ask the student questions until he recognizes the error." },
+        { "id": "PCK13.3", "text": "...explain the underlying content to the student." }
+      ]
+    }
+  ]
+}
