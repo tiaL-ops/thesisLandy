@@ -1,6 +1,11 @@
 # Adaptive Learning Modalities in Game-Based Programming Education
 This is a repo that contains data , analysis and game demo.
-The actual game dor the research tool is available at : https://karoka.co/ until  31 August 2026.
+## Research Tool
+
+The game used as the research tool is available at [Karoka](https://karoka.co/) until 31 August 2026, although availability may be subject to change.
+
+https://github.com/user-attachments/assets/b8412178-9db3-4459-910e-e101c8679a04
+
 
 
 ## Folder Structure
