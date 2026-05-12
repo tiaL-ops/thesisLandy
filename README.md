@@ -1,4 +1,7 @@
-# Thesis — Landy
+# Adaptive Learning Modalities in Game-Based Programming Education
+This is a repo that contains data , analysis and game demo.
+The actual game dor the research tool is available at : https://karoka.co/ until  31 August 2026.
+
 
 ## Folder Structure
 
